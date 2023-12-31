@@ -1,0 +1,76 @@
+form {
+  padding: 10px 0 10px 0;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ededef;
+}
+
+.items-img {
+  border: 1px solid #ededef;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.items-img img {
+  width: 100px;
+}
+
+.text-main {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.text-location {
+  font-size: 10px;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.text-price {
+  font-size: 15px;
+}
+
+.write {
+  background-color: orange;
+  padding: 15px 20px 15px 20px;
+  position: fixed;
+  bottom: 100px;
+  right: 15px;
+  border-radius: 18px;
+  color: white;
+}
+
+.caution {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 400px) {
+  .caution {
+    display: block;
+  }
+}
+
+.cautiontext {
+  position: fixed;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

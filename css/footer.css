@@ -1,0 +1,64 @@
+footer {
+  border-top: 1px solid #ededef;
+  background-color: white;
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeimg {
+  width: 35px;
+}
+
+.docu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.docuimg {
+  width: 35px;
+}
+
+.loca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.locaimg {
+  width: 35px;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.chatimg {
+  width: 35px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userimg {
+  width: 35px;
+}
