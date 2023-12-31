@@ -45,6 +45,12 @@ form {
   right: 15px;
   border-radius: 18px;
   color: white;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.write:hover {
+  background-color: rgba(254, 111, 15, 0.8);
 }
 
 .caution {
