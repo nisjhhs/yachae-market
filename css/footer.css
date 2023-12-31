@@ -6,6 +6,18 @@ footer {
   width: 100vw;
 }
 
+@keyframes icons-doongdoong {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 .footer-icons {
   display: flex;
   justify-content: space-evenly;
@@ -19,6 +31,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home:hover {
+  animation: 1s icons-doongdoong infinite;
+}
 .homeimg {
   width: 35px;
 }
@@ -28,6 +43,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.docu:hover {
+  animation: 1s icons-doongdoong infinite;
 }
 .docuimg {
   width: 35px;
@@ -39,6 +57,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.loca:hover {
+  animation: 1s icons-doongdoong infinite;
+}
 .locaimg {
   width: 35px;
 }
@@ -49,6 +70,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.chat:hover {
+  animation: 1s icons-doongdoong infinite;
+}
 .chatimg {
   width: 35px;
 }
@@ -58,6 +82,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.user:hover {
+  animation: 1s icons-doongdoong infinite;
 }
 .userimg {
   width: 35px;
